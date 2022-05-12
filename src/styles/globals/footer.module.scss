@@ -1,0 +1,46 @@
+.main{
+  background-color: #011526;
+
+  display: flex;
+  justify-content:space-between;
+
+  padding: 50px 10%;
+
+  border-top: solid 4px rgb(251,248,156);
+}
+
+.departmentalContent{
+  h5{
+    color: white;
+  }
+
+  ul{
+    li{
+      color: white;
+    }
+  }
+}
+
+.socialMedia{
+
+  h5{
+    color: white;
+  }
+}
+
+.svgContent {
+  display: flex;
+  align-items: center;
+
+
+  svg {
+    margin: 0px 4px;
+  }
+}
+
+.mapContent{
+
+  iframe{
+    border: none;
+  }
+}

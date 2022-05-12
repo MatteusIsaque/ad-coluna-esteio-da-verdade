@@ -1,0 +1,54 @@
+.main {
+  margin-bottom: 60vh;
+  .content {
+    position: absolute;
+    bottom: -400px;
+    left: 0px;
+
+    height: 500px;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 10%;
+    padding: 0px 5%;
+
+    z-index: 1;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 84px;
+
+      margin: 0 20% 0 0;
+    }
+
+    button {
+      margin-top: 20px;
+
+      border: solid 1px black;
+      outline: none;
+
+      padding: 12px 120px;
+      font-weight: 500;
+      cursor: pointer;
+
+      background-color: white;
+    }
+  }
+
+  .line {
+    width: 4px;
+    height: 500px;
+
+    background: linear-gradient(90deg, rgba(251,248,156,1) 0%, rgba(216,163,53,1) 16%, rgba(161,105,33,1) 35%, rgba(216,163,53,1) 55%, rgba(251,248,156,1) 64%, rgba(251,248,156,1) 75%, rgba(216,163,53,1) 86%, rgba(220,185,73,1) 97%);
+    position: absolute;
+    left: 12%;
+    bottom: -550px;
+    z-index: 2;
+  }
+}

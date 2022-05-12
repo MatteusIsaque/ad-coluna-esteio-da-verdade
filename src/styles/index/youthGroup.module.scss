@@ -1,0 +1,27 @@
+.main{
+
+  h2{
+    font-size: 48px;
+
+    text-align: center;
+
+    margin: 100px 0px;
+  }
+}
+
+
+.content {
+  display: flex;
+
+  .kids{
+
+    &:nth-child(1){
+      padding-bottom: -4px;
+
+    }
+
+    .kidsroom{
+      margin-top: -5px;
+    }
+  }
+}
